@@ -4,7 +4,6 @@ import torch.optim as optim
 import torch
 from transformer import Config, DecoderOnlyTransformer
 
-
 class DataLoaderLite:
     def __init__(self, B, T):
         self.B = B
